@@ -1,4 +1,5 @@
 import jp.ac.uryukyu.ie.ex3.pair04.ExDice;
+import jp.ac.uryukyu.ie.ex3.pair04.Dice;
 /*public class Main{
     public static void main(String[] args){
         Dice dice = new Dice();
@@ -12,9 +13,9 @@ public class Main {
 	ExDice exdice = new ExDice(5, 7);
 	for(int i=0; i<10; i++){
 	    exdice.play();
-	    System.out.println(exdice.setValue((int)(Math.random()*6)+1));  
-	    //System.out.println(exdice.getValue());
-	   
+	    //System.out.println(exdice.setValue((int)(Math.random()*6)+1));  
+	    System.out.println(exdice.getValue());
+	    
 	}
     }
 }
